@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7cd37332a57891128e3a15ba557c1788 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7cd37332a57891128e3a15ba557c1788" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7cd37332a57891128e3a15ba557c1788 = L.map(
+                "map_7cd37332a57891128e3a15ba557c1788",
+                {
+                    center: [-23.55052, -46.633308],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e813c10b43afedce6ed9daa410f9145a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e813c10b43afedce6ed9daa410f9145a.addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var marker_c22e233965b5e09a01ba9e2b35ae3910 = L.marker(
+                [-23.55052, -46.633308],
+                {
+}
+            ).addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var icon_b650f4f1dc45e909587c85daa03eac45 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash ",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5e245de42ad63acc2c0758ebea21e162 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f6ec553ae0088d9df547d89bd310fc1d = $(`<div id="html_f6ec553ae0088d9df547d89bd310fc1d" style="width: 100.0%; height: 100.0%;">centro<br>Total anual: 8441.7 toneladas</div>`)[0];
+                popup_5e245de42ad63acc2c0758ebea21e162.setContent(html_f6ec553ae0088d9df547d89bd310fc1d);
+            
+        
+
+        marker_c22e233965b5e09a01ba9e2b35ae3910.bindPopup(popup_5e245de42ad63acc2c0758ebea21e162)
+        ;
+
+        
+    
+    
+                marker_c22e233965b5e09a01ba9e2b35ae3910.setIcon(icon_b650f4f1dc45e909587c85daa03eac45);
+            
+    
+            var marker_2d954e5de5de2321eb51fe280d1eb2e7 = L.marker(
+                [-23.55, -46.58],
+                {
+}
+            ).addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var icon_18cc76f7bf0ed11b2be9777c54216fb3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash ",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1bb9636fa7a7e134cac3bd9e7a62e448 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9e277bd826062a343cb6d64bc5ce16d = $(`<div id="html_b9e277bd826062a343cb6d64bc5ce16d" style="width: 100.0%; height: 100.0%;">zona leste<br>Total anual: 9097.83 toneladas</div>`)[0];
+                popup_1bb9636fa7a7e134cac3bd9e7a62e448.setContent(html_b9e277bd826062a343cb6d64bc5ce16d);
+            
+        
+
+        marker_2d954e5de5de2321eb51fe280d1eb2e7.bindPopup(popup_1bb9636fa7a7e134cac3bd9e7a62e448)
+        ;
+
+        
+    
+    
+                marker_2d954e5de5de2321eb51fe280d1eb2e7.setIcon(icon_18cc76f7bf0ed11b2be9777c54216fb3);
+            
+    
+            var marker_d5f359593179ec64c157b96963f88221 = L.marker(
+                [-23.5, -46.6],
+                {
+}
+            ).addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var icon_684f30c29066115b8fe619aa8584646d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash ",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3ebc486a1218a55e70efd7b230c25fc2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_225e79fffc297064e33bd6c7cb6bfc7d = $(`<div id="html_225e79fffc297064e33bd6c7cb6bfc7d" style="width: 100.0%; height: 100.0%;">zona norte<br>Total anual: 7300.71 toneladas</div>`)[0];
+                popup_3ebc486a1218a55e70efd7b230c25fc2.setContent(html_225e79fffc297064e33bd6c7cb6bfc7d);
+            
+        
+
+        marker_d5f359593179ec64c157b96963f88221.bindPopup(popup_3ebc486a1218a55e70efd7b230c25fc2)
+        ;
+
+        
+    
+    
+                marker_d5f359593179ec64c157b96963f88221.setIcon(icon_684f30c29066115b8fe619aa8584646d);
+            
+    
+            var marker_fe26e090a221c131bc3f7582e91e5ea4 = L.marker(
+                [-23.56, -46.7],
+                {
+}
+            ).addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var icon_b0252016bd237697ae7cb0e5b8e85826 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash ",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_18c32821300fe89ab18e78498ec9b5d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5aeaa8e89960457eb241abcc2c6dd76e = $(`<div id="html_5aeaa8e89960457eb241abcc2c6dd76e" style="width: 100.0%; height: 100.0%;">zona oeste<br>Total anual: 8238.09 toneladas</div>`)[0];
+                popup_18c32821300fe89ab18e78498ec9b5d8.setContent(html_5aeaa8e89960457eb241abcc2c6dd76e);
+            
+        
+
+        marker_fe26e090a221c131bc3f7582e91e5ea4.bindPopup(popup_18c32821300fe89ab18e78498ec9b5d8)
+        ;
+
+        
+    
+    
+                marker_fe26e090a221c131bc3f7582e91e5ea4.setIcon(icon_b0252016bd237697ae7cb0e5b8e85826);
+            
+    
+            var marker_4b0fdf301adba1e47e4ba676d77b214d = L.marker(
+                [-23.6, -46.65],
+                {
+}
+            ).addTo(map_7cd37332a57891128e3a15ba557c1788);
+        
+    
+            var icon_2d816fb3f3d10687e428b4f423e74450 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "trash ",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_82ea484a35ba78061edc35e6a3e952b9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_29a46f1d8e08914f8fa32a58d3bd6e72 = $(`<div id="html_29a46f1d8e08914f8fa32a58d3bd6e72" style="width: 100.0%; height: 100.0%;">zona sul<br>Total anual: 8465.78 toneladas</div>`)[0];
+                popup_82ea484a35ba78061edc35e6a3e952b9.setContent(html_29a46f1d8e08914f8fa32a58d3bd6e72);
+            
+        
+
+        marker_4b0fdf301adba1e47e4ba676d77b214d.bindPopup(popup_82ea484a35ba78061edc35e6a3e952b9)
+        ;
+
+        
+    
+    
+                marker_4b0fdf301adba1e47e4ba676d77b214d.setIcon(icon_2d816fb3f3d10687e428b4f423e74450);
+            
+</script>
+</html>
