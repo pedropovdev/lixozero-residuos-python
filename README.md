@@ -70,7 +70,24 @@ lixozero-residuos-solidos/
 │   ├── mapa_residuos.html
 │   └── relatorio_residuos.pdf
 │
+
+▶️ Como Executar o Projeto
+
+Clone o repositório:
+
+git clone https://github.com/seu-usuario/lixozero-residuos-solidos.git
+
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+
+Execute o projeto:
+
+python main.py
 ├── imagens/
 ├── main.py
 ├── requirements.txt
 └── README.md
+
